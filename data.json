@@ -1,0 +1,350 @@
+{
+    "Services": [
+        "Navy",
+        "Marines",
+        "Army",
+        "Scouts",
+        "Merchants",
+        "Other"
+    ],
+    "Navy": {
+        "Enlistment": {
+            "throw": 8,
+            "DMs": {
+                "Intelligence": {
+                    "ratingNeeded": 8,
+                    "DM": 1
+                },
+                "Education": {
+                    "ratingNeeded": 9,
+                    "DM": 2
+                }
+            }
+        },
+        "Draft": 1,
+        "Survival": {
+            "throw": 5,
+            "DMs": {
+                "Intelligence": {
+                    "ratingNeeded": 7,
+                    "DM": 2
+                }
+            }
+        },
+        "Commission": {
+            "Throw": 10,
+            "DMs": {
+                "Social Standing": {
+                    "ratingNeeded": 9,
+                    "DM": 1
+                }
+            }
+        },
+        "Promotion": {
+            "Throw": 8,
+            "DMs": {
+                "Education": {
+                    "ratingNeeded": 8,
+                    "DM": 1
+                }
+            }
+        },
+        "Enlistment": {
+            "Throw": 6
+        },
+        "Ranks": {
+            "0": "Starman",
+            "1": "Ensign",
+            "2": "Lieutenant",
+            "3": "Lt Cmdr",
+            "4": "Commander",
+            "5": "Captain",
+            "6": "Admiral"
+        },
+        "Acquired Skills": {
+            "Personal Development": {
+                "1": "+1 Strength",
+                "2": "+1 Dexterity",
+                "3": "+1 Endurance",
+                "4": "+1 Social Standing",
+                "5": "+1 Intelligence",
+                "6": "+1 Education"
+            },
+            "Service Skills": {
+                "1": "Ship's Boat",
+                "2": "Vacc Suit",
+                "3": "Forward Observer",
+                "4": "Blade Combat",
+                "5": "Gun Combat",
+                "6": "Gunnery"
+            },
+            "Advanced Education": {
+                "1": "Vacc Suit",
+                "2": "Mechanical",
+                "3": "Electronic",
+                "4": "Engineering",
+                "5": "Gunnery",
+                "6": "Jack of all Trades"
+            },
+            "Advanced Education 2": {
+                "1": "Medical",
+                "2": "Navigation",
+                "3": "Engineering",
+                "4": "Computer",
+                "5": "Pilot",
+                "6": "Administration"
+            }
+        },
+        "Material Benefits": {
+            "1": "Low Passage",
+            "2": "+1 Intelligence",
+            "3": "+2 Education",
+            "4": "Blade",
+            "5": "Travellers Aid Society",
+            "6": "High Passage",
+            "7": "+2 Social Standing"
+        },
+        "Cash Allowances": {
+            "1": 1000,
+            "2": 5000,
+            "3": 5000,
+            "4": 10000,
+            "5": 20000,
+            "6": 50000,
+            "7": 50000
+        },
+        "Rank and Service Skills": {
+            "Enlistment": "",
+            "Promotion": {
+                "Captain": "+1 Social Standing",
+                "Admiral": "+1 Social Standing"
+            }
+        }
+    },
+    "Marines": {
+        "Enlistment": {
+            "throw": 9,
+            "DMs": {
+                "Intelligence": {
+                    "ratingNeeded": 8,
+                    "DM": 1
+                },
+                "Strength": {
+                    "ratingNeeded": 8,
+                    "DM": 2
+                }
+            }
+        },
+        "Draft": 2,
+        "Survival": {
+            "throw": 6,
+            "DMs": {
+                "Endurance": {
+                    "ratingNeeded": 8,
+                    "DM": 2
+                }
+            }
+        },
+        "Commission": {
+            "Throw": 9,
+            "DMs": {
+                "Education": {
+                    "ratingNeeded": 7,
+                    "DM": 1
+                }
+            }
+        },
+        "Promotion": {
+            "Throw": 9,
+            "DMs": {
+                "Social Standing": {
+                    "ratingNeeded": 8,
+                    "DM": 1
+                }
+            }
+        },
+        "Enlistment": {
+            "Throw": 6
+        },
+        "Ranks": {
+            "0": "",
+            "1": "Lieutenant",
+            "2": "Captain",
+            "3": "Force Commander",
+            "4": "Lt Colonel",
+            "5": "Colonel",
+            "6": "Brigadier"
+        },
+        "Acquired Skills": {
+            "Personal Development": {
+                "1": "+1 Strength",
+                "2": "+1 Dexterity",
+                "3": "+1 Endurance",
+                "4": "Gambling",
+                "5": "Brawling",
+                "6": "Blade Combat"
+            },
+            "Service Skills": {
+                "1": "ATV",
+                "2": "Vacc Suit",
+                "3": "Blade Combat",
+                "4": "Blade Combat",
+                "5": "Gun Combat",
+                "6": "Gun Combat"
+            },
+            "Advanced Education": {
+                "1": "ATV",
+                "2": "Mechanical",
+                "3": "Electronics",
+                "4": "Tactics",
+                "5": "Blade Combat",
+                "6": "Gun Combat"
+            },
+            "Advanced Education 2": {
+                "1": "Medical",
+                "2": "Tactics",
+                "3": "Tactics",
+                "4": "Computer",
+                "5": "Leader",
+                "6": "Administration"
+            }
+        },
+        "Material Benefits": {
+            "1": "Low Passage",
+            "2": "+2 Intelligence",
+            "3": "+1 Education",
+            "4": "Blade",
+            "5": "Travellers Aid Society",
+            "6": "High Passage",
+            "7": "+2 Social Standing"
+        },
+        "Cash Allowances": {
+            "1": 2000,
+            "2": 5000,
+            "3": 5000,
+            "4": 10000,
+            "5": 20000,
+            "6": 30000,
+            "7": 40000
+        },
+        "Rank and Service Skills": {
+            "Enlistment": "Cutlass-1",
+            "Promotion": {
+                "Lieutenant": "Revolver-1"
+            }
+        }
+    },
+    "Army": {
+        "Enlistment": {
+            "throw": 5,
+            "DMs": {
+                "Dexterity": {
+                    "ratingNeeded": 6,
+                    "DM": 1
+                },
+                "Endurance": {
+                    "ratingNeeded": 5,
+                    "DM": 2
+                }
+            }
+        },
+        "Draft": 3,
+        "Survival": {
+            "throw": 5,
+            "DMs": {
+                "Education": {
+                    "ratingNeeded": 6,
+                    "DM": 2
+                }
+            }
+        },
+        "Commission": {
+            "Throw": 5,
+            "DMs": {
+                "Endurance": {
+                    "ratingNeeded": 7,
+                    "DM": 1
+                }
+            }
+        },
+        "Promotion": {
+            "Throw": 6,
+            "DMs": {
+                "Endurance": {
+                    "ratingNeeded": 7,
+                    "DM": 1
+                }
+            }
+        },
+        "Enlistment": {
+            "Throw": 7
+        },
+        "Ranks": {
+            "0": "",
+            "1": "Lieutenant",
+            "2": "Captain",
+            "3": "Major",
+            "4": "Lt Colonel",
+            "5": "Colonel",
+            "6": "General"
+        },
+        "Acquired Skills": {
+            "Personal Development": {
+                "1": "+1 Strength",
+                "2": "+1 Dexterity",
+                "3": "+1 Endurance",
+                "4": "Gambling",
+                "5": "Brawling",
+                "6": "+1 Education"
+            },
+            "Service Skills": {
+                "1": "ATV",
+                "2": "Air/Raft",
+                "3": "Forward Observer",
+                "4": "Blade Combat",
+                "5": "Gun Combat",
+                "6": "Gun Combat"
+            },
+            "Advanced Education": {
+                "1": "ATV",
+                "2": "Mechanical",
+                "3": "Electronics",
+                "4": "Tactics",
+                "5": "Blade Combat",
+                "6": "Gun Combat"
+            },
+            "Advanced Education 2": {
+                "1": "Medical",
+                "2": "Tactics",
+                "3": "Tactics",
+                "4": "Computer",
+                "5": "Leader",
+                "6": "Administration"
+            }
+        },
+        "Material Benefits": {
+            "1": "Low Passage",
+            "2": "+1 Intelligence",
+            "3": "+2 Education",
+            "4": "Gun",
+            "5": "High Passage",
+            "6": "Mid Passage",
+            "7": "+1 Social Standing"
+        },
+        "Cash Allowances": {
+            "1": 2000,
+            "2": 5000,
+            "3": 10000,
+            "4": 10000,
+            "5": 10000,
+            "6": 20000,
+            "7": 30000
+        },
+        "Rank and Service Skills": {
+            "Enlistment": "Rifle-1",
+            "Promotion": {
+                "Lieutenant": "SMG-1"
+            }
+        }
+    }
+}
